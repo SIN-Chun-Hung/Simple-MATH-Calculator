@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Orbitron");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  font-family: Poppins, Helvetica, sans-serif, monospace, Arial;
+}
+
+#myCal {
+  background-color: #DCDCDC;
+  width: 350px;
+  height: 540px;
+  margin: 150px auto;
+  border-radius: 5px;
+}
+
+#cal-info {
+  color: white;
+  background-color: #808080;
+  font-size: 2.1rem;
+  text-align: center;
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 4rem;
+}
+
+#author {
+  font-family: Caveat, monospace;
+  font-weight: bold;
+  font-size: 2.3rem;
+}
+
+.screen-formula, .screen-value {
+  width: 90%;
+  background-color: #FFF8DC;
+  color: black;
+  font-family: Orbitron, Poppins, monospace, sans-serif, Helvetica;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: right;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#display {
+  height: 35px;
+  margin: 0 auto 0 auto;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+#formula-string {
+  margin: 30px auto 0 auto;
+  height: 25px;
+  font-size: 1.5rem;
+}
+
+#buttons {
+  position: relative;
+}
+
+button {
+  border: 1px solid white;
+}
+
+button:hover {
+  border: 1px solid black;
+}
+
+#clear {
+  position: absolute;
+  top: -26px;
+  left: 50px;
+}
+
+#buttons-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px 50px 0 50px;
+  row-gap: 5px;
+  column-gap: 5px;
+  top: 20px;
+}
+
+.buttons-same-prop {
+  width: 58.75px;
+  height: 58.75px;
+  color: white;
+  font-size: 2rem;
+  border-radius: 20%;
+}
