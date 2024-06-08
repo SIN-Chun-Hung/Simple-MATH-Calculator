@@ -6,8 +6,10 @@ This calculator is only for simple calculation problem, but not for the scientif
 
 This page owner information.
 
-SIN,Chun Hung SIMON.
+SIN,Chun Hung SIMON. 
 
-HKUST graduate.
+HKUST Graduate. 
 
-Mathematician. Developer.
+Major in Mathematics.
+
+A Lifelong Learner.
